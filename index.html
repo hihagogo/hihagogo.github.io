@@ -14,6 +14,13 @@
 
 
 
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
+
 
 
 
@@ -315,7 +322,10 @@
 </li>
 </ol>
 <h2 id="撰写文章"><a href="#撰写文章" class="headerlink" title="撰写文章"></a>撰写文章</h2><p>小白忘性大，写下如何将本地写好的文件发到个人blog上的步骤，以后才不会忘记了还要翻教学网页。</p>
-<p>用 markdown 编辑器（我用的是atom）写好文章后保存文件到 \Hexo\source_posts 文件夹下即可，文章名称是 .md 的后缀</p>
+<ul>
+<li>用 markdown 编辑器（我用的是atom）写好文章后保存文件到 \Hexo\source_posts 文件夹下即可，文章名称是 .md 的后缀</li>
+<li>或者在\Hexo\source_posts 文件夹下右键，选中 Git Bash Here，输入 <code>hexo new &quot;文章标题&quot;</code>，就会产生新的 .md 文档。</li>
+</ul>
 <h2 id="发布文章（亦即更新个人博客）"><a href="#发布文章（亦即更新个人博客）" class="headerlink" title="发布文章（亦即更新个人博客）"></a>发布文章（亦即更新个人博客）</h2><ol>
 <li><p>将本地文档 .md 推送到服务器上的步骤： \Hexo\source_posts 文件夹下右键，选中 Git Bash Here，输入<code>hexo g</code> (完整命令为<code>hexo generate</code>)，用于生成静态文件</p>
 </li>
@@ -338,6 +348,10 @@
     
     
     
+
+    <div>
+      
+    </div>
 
     
 
@@ -468,7 +482,9 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+        <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
@@ -477,6 +493,12 @@
   
 </div>
 
+
+  <div class="powered-by">
+  <i class="fa fa-user-md"></i><span id="busuanzi_container_site_pv">
+    本站访客数:<span id="busuanzi_value_site_pv"></span>
+  </span>
+  </div>
 
   <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
 
@@ -533,6 +555,8 @@
   
 
 
+  
+
 
 
 
@@ -571,6 +595,11 @@
   
   
     <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
   
 
 
