@@ -1,32 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>个人网站的建立过程</title>
-      <link href="/2019/09/12/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E7%9A%84%E5%BB%BA%E7%AB%8B/"/>
-      <url>/2019/09/12/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E7%9A%84%E5%BB%BA%E7%AB%8B/</url>
-      
-        <content type="html"><![CDATA[<!-- build time:Tue Sep 17 2019 00:18:23 GMT+0800 (GMT+08:00) --><p>想要写一个自己的个人blog，于是在网上找了很多教学，最终确定了建立的方式 Github Pages 和 Hexo，现在写下来做一个回顾和以后的备忘。</p><h2 id="创建个人网站的技术支持"><a href="#创建个人网站的技术支持" class="headerlink" title="创建个人网站的技术支持"></a>创建个人网站的技术支持</h2><p>在网上找到的三篇教学相关链接如下：</p><ol><li><p><a href="（https://blog.csdn.net/qq_36759224/article/details/82121420">使用Github Pages和Hexo搭建自己的独立博客超级详细的小白教程</a></p></li><li><p><a href="https://blog.csdn.net/muzilanlan/article/details/81542917" target="_blank" rel="noopener">Git Pages + Jekyll/Hexo搭建自己的博客(最全总结你想知道的都在这里了)</a></p></li><li><p><a href="https://blog.csdn.net/qq_36759224/article/details/82121420" target="_blank" rel="noopener">使用Github Pages和Hexo搭建自己的独立博客【超级详细的小白教程】</a></p></li></ol><h2 id="撰写文章"><a href="#撰写文章" class="headerlink" title="撰写文章"></a>撰写文章</h2><p>小白忘性大，写下如何将本地写好的文件发到个人blog上的步骤，以后才不会忘记了还要翻教学网页。</p><ul><li>用 markdown 编辑器（我用的是atom）写好文章后保存文件到 \Hexo\source_posts 文件夹下即可，文章名称是 .md 的后缀</li><li>或者在\Hexo\source_posts 文件夹下右键，选中 Git Bash Here，输入 <code>hexo new &quot;文章标题&quot;</code>，就会产生新的 .md 文档。</li></ul><h2 id="发布文章（亦即更新个人博客）"><a href="#发布文章（亦即更新个人博客）" class="headerlink" title="发布文章（亦即更新个人博客）"></a>发布文章（亦即更新个人博客）</h2><ol><li><p>将本地文档 .md 推送到服务器上的步骤： \Hexo\source_posts 文件夹下右键，选中 Git Bash Here，输入<code>hexo g</code> (完整命令为<code>hexo generate</code>)，用于生成静态文件</p></li><li><p>然后 输入<code>hexo s</code>(完整命令为<code>hexo server</code>)，用于启动服务器，主要用来本地预览；完成后当出现了<code>【INFO Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop.</code>】后便可以打开浏览器输入 <a href="http://localhost:4000" target="_blank" rel="noopener">localhost:4000</a>，会发现多了你刚写的那篇博客</p></li><li><p>最后输入<code>hexo d</code>(完整命令为<code>hexo deploy</code>)，用于将本地文件发布到 github 等 git 仓库上；</p></li></ol><p>好了，大功告成！</p><h2 id="删除文章"><a href="#删除文章" class="headerlink" title="删除文章"></a>删除文章</h2><ol><li>删除\Hexo\source_posts 文件夹下.md 后缀的源文件</li><li>只有删除md文档是无法同步完全删除个人网站上的文章，还需要进一步操作：在\Hexo文件下右键，选中 Git Bash Here，输入<code>hexo clean</code> ，用于删除 database 和 public文件</li><li>回到\Hexo\source_posts 文件夹下，进行前述更新个人博客的步骤，就可完成网络界面更新了。</li></ol><!-- rebuild by neat -->]]></content>
-      
-      
+<search>
+  <entry>
+    <title><![CDATA[个人网站的建立过程]]></title>
+    <url>%2F2019%2F09%2F12%2F%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E7%9A%84%E5%BB%BA%E7%AB%8B%2F</url>
+    <content type="text"><![CDATA[想要写一个自己的个人blog，于是在网上找了很多教学，最终确定了建立的方式 Github Pages 和 Hexo，现在写下来做一个回顾和以后的备忘。创建个人网站的技术支持在网上找到的三篇教学相关链接如下：使用Github Pages和Hexo搭建自己的独立博客超级详细的小白教程Git Pages + Jekyll/Hexo搭建自己的博客(最全总结你想知道的都在这里了)使用Github Pages和Hexo搭建自己的独立博客【超级详细的小白教程】撰写文章小白忘性大，写下如何将本地写好的文件发到个人blog上的步骤，以后才不会忘记了还要翻教学网页。用 markdown 编辑器（我用的是atom）写好文章后保存文件到 \Hexo\source_posts 文件夹下即可，文章名称是 .md 的后缀或者在\Hexo\source_posts 文件夹下右键，选中 Git Bash Here，输入 hexo new &quot;文章标题&quot;，就会产生新的 .md 文档。发布文章（亦即更新个人博客）将本地文档 .md 推送到服务器上的步骤： \Hexo\source_posts 文件夹下右键，选中 Git Bash Here，输入hexo g (完整命令为hexo generate)，用于生成静态文件然后 输入hexo s(完整命令为hexo server)，用于启动服务器，主要用来本地预览；完成后当出现了【INFO Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop.】后便可以打开浏览器输入 localhost:4000，会发现多了你刚写的那篇博客最后输入hexo d(完整命令为hexo deploy)，用于将本地文件发布到 github 等 git 仓库上；好了，大功告成！删除文章删除\Hexo\source_posts 文件夹下.md 后缀的源文件只有删除md文档是无法同步完全删除个人网站上的文章，还需要进一步操作：在\Hexo文件下右键，选中 Git Bash Here，输入hexo clean ，用于删除 database 和 public文件回到\Hexo\source_posts 文件夹下，进行前述更新个人博客的步骤，就可完成网络界面更新了。]]></content>
       <categories>
-          
-          <category> 科技 </category>
-          
+        <category>科技</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 个人网站 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>个人网站</tag>
+      </tags>
+  </entry>
 </search>
