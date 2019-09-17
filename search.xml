@@ -1,25 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title><![CDATA[图说区块链]]></title>
-    <url>%2F2019%2F09%2F17%2F%E5%9B%BE%E8%AF%B4%E5%8C%BA%E5%9D%97%E9%93%BE%2F</url>
-    <content type="text"><![CDATA[]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>解读《图说区块链》</title>
+      <link href="/posts/eb92e5a1.html"/>
+      <url>/posts/eb92e5a1.html</url>
+      
+        <content type="html"><![CDATA[<!-- build time:Tue Sep 17 2019 17:26:26 GMT+0800 (GMT+08:00) --><h1 id="书籍基础脉络"><a href="#书籍基础脉络" class="headerlink" title="书籍基础脉络"></a>书籍基础脉络</h1><h2 id="起源篇"><a href="#起源篇" class="headerlink" title="起源篇"></a>起源篇</h2><h3 id="账本演变：一本账的兴衰发展史"><a href="#账本演变：一本账的兴衰发展史" class="headerlink" title="账本演变：一本账的兴衰发展史"></a>账本演变：一本账的兴衰发展史</h3><blockquote><p>从账本演变的角度来看，区块链是一个<strong>分布式共享</strong>的账本系统。这本账本有以下三个特点：</p><ol><li>可以<strong>无限增加</strong>的巨型账本——每个区块可以视作这个账本的一页，每增加一个区块，账<br>本就多了一页，这一页中可能会包含一条或多条记录信息；</li><li><strong>加密且有顺序</strong>的账本——账目信息会被打包成一个区块并加密，同时盖上时间戳，一个<br>个区块按<strong>时间戳</strong>顺序链接形成一个总账本；</li><li><strong>去中心化</strong>的账本——由网内用户共同维护的，它是去中心化的。</li></ol></blockquote><blockquote><p>区块链是人类的记账历史走到现在，科技给我们的最新的选择，它是账本演变史上最新的<br>一个高可行性的形态。</p></blockquote><p>具体的区块链是如何记账的，可以查看<a href="https://www.jianshu.com/p/0c069b865440" target="_blank" rel="noopener">区块链记账原理</a>这篇文章，描述得很清晰。</p><h3 id="价值转移：互联网之后还有什么"><a href="#价值转移：互联网之后还有什么" class="headerlink" title="价值转移：互联网之后还有什么"></a>价值转移：互联网之后还有什么</h3><p>互联网无法传递一类特殊的信息，那就是货币，而区块链恰恰可以解决这样的问题，因为区块链是一种价值传输网络。</p><h2 id="原理篇"><a href="#原理篇" class="headerlink" title="原理篇"></a>原理篇</h2><h2 id="人物篇"><a href="#人物篇" class="headerlink" title="人物篇"></a>人物篇</h2><h2 id="应用篇"><a href="#应用篇" class="headerlink" title="应用篇"></a>应用篇</h2><h2 id="装备篇"><a href="#装备篇" class="headerlink" title="装备篇"></a>装备篇</h2><!-- rebuild by neat -->]]></content>
+      
+      
       <categories>
-        <category>study notes</category>
+          
+          <category> study notes </category>
+          
       </categories>
-      <tags>
-        <tag>blockchain</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[个人网站的建立过程]]></title>
-    <url>%2F2019%2F09%2F12%2F%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E7%9A%84%E5%BB%BA%E7%AB%8B%2F</url>
-    <content type="text"><![CDATA[想要写一个自己的个人blog，于是在网上找了很多教学，最终确定了建立的方式 Github Pages 和 Hexo，现在写下来做一个回顾和以后的备忘。创建个人网站的技术支持在网上找到的三篇教学相关链接如下：使用Github Pages和Hexo搭建自己的独立博客超级详细的小白教程Git Pages + Jekyll/Hexo搭建自己的博客(最全总结你想知道的都在这里了)使用Github Pages和Hexo搭建自己的独立博客【超级详细的小白教程】撰写文章小白忘性大，写下如何将本地写好的文件发到个人blog上的步骤，以后才不会忘记了还要翻教学网页。用 markdown 编辑器（我用的是atom）写好文章后保存文件到 \Hexo\source_posts 文件夹下即可，文章名称是 .md 的后缀或者在\Hexo\source_posts 文件夹下右键，选中 Git Bash Here，输入 hexo new &quot;文章标题&quot;，就会产生新的 .md 文档。发布文章（亦即更新个人博客）将本地文档 .md 推送到服务器上的步骤： \Hexo\source_posts 文件夹下右键，选中 Git Bash Here，输入hexo g (完整命令为hexo generate)，用于生成静态文件然后 输入hexo s(完整命令为hexo server)，用于启动服务器，主要用来本地预览；完成后当出现了【INFO Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop.】后便可以打开浏览器输入 localhost:4000，会发现多了你刚写的那篇博客最后输入hexo d(完整命令为hexo deploy)，用于将本地文件发布到 github 等 git 仓库上；好了，大功告成！删除文章删除\Hexo\source_posts 文件夹下.md 后缀的源文件只有删除md文档是无法同步完全删除个人网站上的文章，还需要进一步操作：在\Hexo文件下右键，选中 Git Bash Here，输入hexo clean ，用于删除 database 和 public文件回到\Hexo\source_posts 文件夹下，进行前述更新个人博客的步骤，就可完成网络界面更新了。]]></content>
+      
+      
+        <tags>
+            
+            <tag> blockchain </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>个人网站的建立过程</title>
+      <link href="/posts/493539c2.html"/>
+      <url>/posts/493539c2.html</url>
+      
+        <content type="html"><![CDATA[<!-- build time:Tue Sep 17 2019 17:26:26 GMT+0800 (GMT+08:00) --><p>想要写一个自己的个人blog，于是在网上找了很多教学，最终确定了建立的方式 Github Pages 和 Hexo，现在写下来做一个回顾和以后的备忘。</p><h2 id="创建个人网站的技术支持"><a href="#创建个人网站的技术支持" class="headerlink" title="创建个人网站的技术支持"></a>创建个人网站的技术支持</h2><p>在网上找到的三篇教学相关链接如下：</p><ol><li><p><a href="（https://blog.csdn.net/qq_36759224/article/details/82121420">使用Github Pages和Hexo搭建自己的独立博客超级详细的小白教程</a></p></li><li><p><a href="https://blog.csdn.net/muzilanlan/article/details/81542917" target="_blank" rel="noopener">Git Pages + Jekyll/Hexo搭建自己的博客(最全总结你想知道的都在这里了)</a></p></li><li><p><a href="https://blog.csdn.net/qq_36759224/article/details/82121420" target="_blank" rel="noopener">使用Github Pages和Hexo搭建自己的独立博客【超级详细的小白教程】</a></p></li></ol><h2 id="撰写文章"><a href="#撰写文章" class="headerlink" title="撰写文章"></a>撰写文章</h2><p>小白忘性大，写下如何将本地写好的文件发到个人blog上的步骤，以后才不会忘记了还要翻教学网页。</p><ul><li>用 markdown 编辑器（我用的是atom）写好文章后保存文件到 \Hexo\source_posts 文件夹下即可，文章名称是 .md 的后缀</li><li>或者在\Hexo\source_posts 文件夹下右键，选中 Git Bash Here，输入 <code>hexo new &quot;文章标题&quot;</code>，就会产生新的 .md 文档。</li></ul><h2 id="发布文章（亦即更新个人博客）"><a href="#发布文章（亦即更新个人博客）" class="headerlink" title="发布文章（亦即更新个人博客）"></a>发布文章（亦即更新个人博客）</h2><ol><li><p>将本地文档 .md 推送到服务器上的步骤： \Hexo\source_posts 文件夹下右键，选中 Git Bash Here，输入<code>hexo g</code> (完整命令为<code>hexo generate</code>)，用于生成静态文件</p></li><li><p>然后 输入<code>hexo s</code>(完整命令为<code>hexo server</code>)，用于启动服务器，主要用来本地预览；完成后当出现了<code>【INFO Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop.</code>】后便可以打开浏览器输入 <a href="http://localhost:4000" target="_blank" rel="noopener">localhost:4000</a>，会发现多了你刚写的那篇博客</p></li><li><p>最后输入<code>hexo d</code>(完整命令为<code>hexo deploy</code>)，用于将本地文件发布到 github 等 git 仓库上；</p></li></ol><p>好了，大功告成！</p><h2 id="删除文章"><a href="#删除文章" class="headerlink" title="删除文章"></a>删除文章</h2><ol><li>删除\Hexo\source_posts 文件夹下.md 后缀的源文件</li><li>只有删除md文档是无法同步完全删除个人网站上的文章，还需要进一步操作：在\Hexo文件下右键，选中 Git Bash Here，输入<code>hexo clean</code> ，用于删除 database 和 public文件</li><li>回到\Hexo\source_posts 文件夹下，进行前述更新个人博客的步骤，就可完成网络界面更新了。</li></ol><!-- rebuild by neat -->]]></content>
+      
+      
       <categories>
-        <category>科技</category>
+          
+          <category> 科技 </category>
+          
       </categories>
-      <tags>
-        <tag>个人网站</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> 个人网站 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>
